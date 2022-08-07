@@ -1,0 +1,163 @@
+/* Fuentes de texto que se estan utilizando */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Orbitron&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+/* Codigo que define el fondo de la parte del body de html*/
+.body{
+    /* background: linear-gradient(90deg, rgba(60,106,70,1) 0%, rgba(108,224,131,1) 50%, rgba(60,106,70,1) 100%); */
+    background-color: rgb(210, 255, 176);
+    margin: 0px;
+}
+
+/* Codigo que define el estilo que tendra el encabezado de la pagina */
+.Titulo{
+    background-color: rgb(28, 148, 53);
+    margin:0;
+}
+
+.Titulo img{
+    margin-left: 40px;
+}
+
+/* Codigo que define el estilo que tendra los hipervinculos de la lista ubicados en el encabezado */
+.ListaTitulo a{
+    font-size: 25px;
+    font-family: 'Monofett';
+    color: rgb(203, 202, 254);
+    margin-left: 40px;
+}
+
+/* Codigo que define el estilo que tendra cuando pasas por encima el mouse
+    los hipervinculos de la lista ubicados en el encabezado */
+.ListaTitulo a:hover{
+    background-color: rgb(152, 179, 132);
+    color: rgb(203, 202, 254);
+}
+
+/* Codigo que define el texto ubicado en el encabezado */
+.TextoTitulo{
+    font-family: 'Press Start 2P';
+    font-size: 3em;
+    color: rgb(224, 160, 85);
+}
+
+.IMGacerca{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.Acerca-Titulo{
+    font-family: 'Press Start 2P';
+    font-size: 1.25em;
+    text-align: center;
+    background-color: rgb(218, 173, 177);
+}
+
+.Acerca-Texto1{
+    font-family: 'Press Start 2P';
+    font-size: 0.90em;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 30px; 
+    margin-top: 40px;
+}
+
+.Acerca-Texto2{
+    font-family: 'Press Start 2P';
+    font-size: 0.90em;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 30px; 
+    margin-top: 30px;
+}
+.Mural{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+/* Codigo que define el estilo que tendra el pie de pagina */
+.Pie{
+    background-color: rgb(165, 130, 224);
+    margin: 0;
+}
+
+/* Codigo que define el estilo que tendra la primera parte del pie de pagina
+    donde se ubican los iconos y la informacion de la universidad */
+.Iconoapps{
+    font-size: 2em;
+    padding-top: 5%;
+}
+    
+
+
+/* Texto que define el estilo que tendra los iconos de las redes sociales ubicadas 
+    en el pie de pagina */
+.Iconoapps a {
+    padding-left: 10%;
+    text-decoration: none;
+    color: rgb(224, 160, 85);
+}
+
+/* Codigo que define el estilo que tendra el texto del pie de pagina */
+.Textopie{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Codigo que define como se veran las lineas a utilizar en la pagina de indez*/
+.hr{
+    border: 7px dotted rgb(28, 148, 53);
+}
+
+/* Codigo que define el estilo que tendra el formulario ubicado en el pie de pagina */
+.formulario{
+    text-align: center;
+}
+
+.mapa{
+    text-align: center;
+}
+
+.Mision{
+    font-family: 'Press Start 2P';
+    font-size: 1em;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 30px; 
+}
+
+.MisionTxT{
+    font-family: 'Press Start 2P';
+    font-size: 0.90em;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 30px; 
+    padding-bottom: 30px;
+ 
+}
+
+.Vision{
+    font-family: 'Press Start 2P';
+    font-size: 1em;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+
+.VisionTxT{
+    font-family: 'Press Start 2P';
+    font-size: 0.90em;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-left: 30px; 
+    margin-right: 30px;
+ 
+}

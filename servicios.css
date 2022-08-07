@@ -1,0 +1,117 @@
+/* Fuentes de texto que se estan utilizando */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Orbitron&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+/* Codigo que define el fondo de la parte del body de html*/
+.body{
+    /* background: linear-gradient(90deg, rgba(60,106,70,1) 0%, rgba(108,224,131,1) 50%, rgba(60,106,70,1) 100%); */
+    background-color: rgb(210, 255, 176);
+    margin: 0px;
+}
+
+/* Codigo que define el estilo que tendra el encabezado de la pagina */
+.Titulo{
+    background-color: rgb(28, 148, 53);
+    margin:0;
+}
+
+.Titulo img{
+    margin-left: 40px;
+}
+
+
+/* Codigo que define el estilo que tendra los hipervinculos de la lista ubicados en el encabezado */
+.ListaTitulo a{
+    font-size: 25px;
+    font-family: 'Monofett';
+    color: rgb(203, 202, 254);
+    margin-left: 40px;
+}
+
+/* Codigo que define el estilo que tendra cuando pasas por encima el mouse
+    los hipervinculos de la lista ubicados en el encabezado */
+.ListaTitulo a:hover{
+    background-color: rgb(152, 179, 132);
+    color: rgb(203, 202, 254);
+}
+
+/* Codigo que define el texto ubicado en el encabezado */
+.TextoTitulo{
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: rgb(224, 160, 85);
+}
+
+.Servicio-Titulo{
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(218, 173, 177);
+}
+
+.Servicio-TxT{
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+}
+
+.Servicio-TxT1{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+}
+
+.PieIMG{
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+    text-align: center;
+}
+
+.PieIMG a{
+    color: black;
+}
+
+
+.col-3{
+    background-color: rgb(224, 160, 85);
+}
+
+.YT{
+    font-size: 80px;
+}
+
+.YT a{
+    color: black;
+}
+
+.FB{
+    font-size: 80px;
+}
+
+.FB a{
+    color: black;
+}
+
+.INS{
+    font-size: 80px;
+}
+
+.INS a{
+    color: black;
+}
+
+.col-4{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-4 pre{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
